@@ -45,3 +45,8 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Funciones para el equipo
+# Diseñador UX
+- Investigar en IA 5 ideas innovadoras para realizar un blog bajo un contexto real en tarija
+- Investigar 5 paginas de blogs de tarija que sean relevantes y conocidas.
