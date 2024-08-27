@@ -50,3 +50,4 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 # Diseñador UX
 - Investigar en IA 5 ideas innovadoras para realizar un blog bajo un contexto real en tarija
 - Investigar 5 paginas de blogs de tarija que sean relevantes y conocidas.
+- Crear una encuesta en IA para averiguar el interes de la idea para beneficiarios y enviarlos a 10 personas en linea
