@@ -64,3 +64,5 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - Investigar el almacenamiento de datos mediante mdx para astro y como realizar dicho proceso.
 - configurar astro para las direcciones y configuraciones del localhost para el deploy.
 - Definir donde se realizara el deploy y que servidor gratuito se hara o directamente con github pero como se lo hara.
+
+- djdjdjdjd
