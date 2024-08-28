@@ -47,20 +47,19 @@ All commands are run from the root of the project, from a terminal:
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
 ## Funciones para el equipo
-# Diseñador UX
-- Investigar en IA 5 ideas innovadoras para realizar un blog bajo un contexto real en tarija
-- Investigar 5 paginas de blogs de tarija que sean relevantes y conocidas.
-- Crear una encuesta en IA para averiguar el interes de la idea para beneficiarios y enviarlos a 10 personas en linea
-# Diseñador UI
-- Investigar 3 diseños de paginas blog en escritorio en figma community wireframe
+# Diseñador UX/UI
+- Investigar en IA 5 ideas innovadoras para realizar un blog bajo un contexto real en tarija (Carla)
+- Investigar 5 paginas de blogs de tarija que sean relevantes y conocidas. (Mario)
+- Crear una encuesta en IA para averiguar el interes de la idea para beneficiarios y enviarlos a 10 personas en linea(Brandon)
+- Investigar 3 diseños de paginas blog en escritorio en figma community wireframe (alexis)
 - Realizar 5 pantallas wireframe base de un blog (autentificacion, lading de aterrizaje, opciones sobre la tematica )
 - realizar la pantalla principal delo blog y pantalla del blog individual.
 # Front End
-- Instalar todas las dependencias de astro ( astro icon u otros)
-- Definir si se utilizara algun framework css o css puro.
-- COnstruir la estructura de carpetas y patrones de diseño que se utilizara para la aplicacion.
+- Instalar todas las dependencias de astro ( astro icon u otros) (Gerson)
+- Definir si se utilizara algun framework css o css puro.(Damaris)
+- COnstruir la estructura de carpetas y patrones de diseño que se utilizara para la aplicacion.(Patricia , Jesus)
 # Back End
-- Investigar el almacenamiento de datos mediante markdown para astro y como realizar dicho proceso.
-- Investigar el almacenamiento de datos mediante mdx para astro y como realizar dicho proceso.
-- configurar astro para las direcciones y configuraciones del localhost para el deploy.
-- Definir donde se realizara el deploy y que servidor gratuito se hara o directamente con github pero como se lo hara.
+- Investigar el almacenamiento de datos mediante markdown para astro y como realizar dicho proceso.(Diego)
+- Investigar el almacenamiento de datos mediante mdx para astro y como realizar dicho proceso.(Yordy)
+- configurar astro para las direcciones y configuraciones del localhost para el deploy.(Alex)
+- Definir donde se realizara el deploy y que servidor gratuito se hara o directamente con github pero como se lo hara.(Alex)
