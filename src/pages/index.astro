@@ -2,15 +2,126 @@
 
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+	<link rel="stylesheet" href="./CSS/global.css" />
+  	<link rel="stylesheet"  href="./CSS/index.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monofett:wght@400&display=swap" />
+	  <link rel="preconnect" href="https://fonts.googleapis.com" />
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="margin">
+    		<div class="mobile">	
+      			<img class="textures" alt="" src="images/texture.png">
+      			
+      			<img class="logo" alt="" src="images/logo.png">
+      			
+      			<div class="name-container">
+        				<p class="appName">TO DO LIST</p>
+        				<p class="appName">MUSIC</p>
+      			</div>
+				<div class="copyright">© 2024  Todos los derechos reservados</div>
+    		</div>
+  	</div>
+  	
+  	
+  	
+  	
+</body>
+<style>
+	body {
+    font-family: "Audiowide", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.margin {
+    width: 100vw;
+    height: 100vh;
+    background-color: #cd4640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile {
+    background-color: #cd4640;
+    width: 90vw;
+    height: 90vh;
+    max-width: 457px;
+    max-height: 912px;
+    position: relative;
+}
+
+.textures {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.35;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 3vh;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: pre-wrap;
+    text-align: center;
+    font-size: 2vh;
+    color: white;
+}
+
+.name-container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5vh;
+    width: 80vw;
+    height: 20vh;
+    max-width: 399px;
+    max-height: 167px;
+    font-size: clamp(5rem, 4vw, 8rem);
+    font-family: Monofett;
+    color: #9b1111;
+    text-align: center;
+}
+
+.appName {
+    margin: 0;
+    white-space: pre-wrap;
+    text-align: center;
+    font-size: clamp(5rem, 4vw, 8rem);
+}
+
+.logo {
+    position: relative;
+    top: 2vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70vw;
+    height: 40vh;
+    max-width: 471px;
+    max-height: 360px;
+    object-fit: cover;
+}
+</style>
 </html>
+
