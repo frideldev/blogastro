@@ -1,0 +1,16 @@
+---
+import Head from "../components/templates/Head.astro"
+import Header from "../components/templates/Header.astro"
+import Footer from "../components/templates/Footer.astro"
+---
+
+<html lang="es">
+  <Head title="Mi Proyecto" description="Este es un proyecto con Astro." />
+  <body>
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
