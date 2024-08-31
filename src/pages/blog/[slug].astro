@@ -1,0 +1,33 @@
+<!-- ---
+import MainLayouts from "../../layouts/MainLayouts.astro"
+
+// Obtener rutas estáticas basadas en los archivos Markdown
+export async function getStaticPaths() {
+  const posts = await Astro.glob('../../../posts/*.md');
+
+  return posts.map(post => ({
+    params: { slug: post.frontmatter.slug },
+    props: { post },
+  }));
+}
+
+// Obtener los props para este slug específico
+export async function getStaticProps({ params }) {
+  const posts = await Astro.glob('../../posts/*.md');
+  const post = posts.find(post => post.frontmatter.slug === params.slug);
+  return { props: { post } };
+}
+
+const { post } = Astro.props;
+const { Content } = post;
+---
+<MainLayouts>
+    <article>
+        <header>
+            <h1>{post.frontmatter.title}</h1>
+            <p>By {post.frontmatter.author} on {new Date(post.frontmatter.date).toLocaleDateString()}</p>
+            <img src={post.frontmatter.image} alt={post.frontmatter.title} />
+        </header>
+        <Content />
+    </article>
+</MainLayouts> -->

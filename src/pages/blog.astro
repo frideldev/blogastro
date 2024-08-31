@@ -1,7 +1,9 @@
 ---
-// Importar múltiples archivos Markdown
+
 const posts = await Astro.glob('../posts/*.md');
 import MainLayouts from "../layouts/MainLayouts.astro"
+import { Debug } from 'astro:components';
+console.log(Astro.props.post)
 ---
 
 <MainLayouts>
@@ -15,4 +17,5 @@ import MainLayouts from "../layouts/MainLayouts.astro"
             </li>
         ))}
     </ul>
+    <Debug {posts} />
 </MainLayouts>
