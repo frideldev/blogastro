@@ -2,6 +2,7 @@
 import Head from "../components/templates/Head.astro"
 import Header from "../components/templates/Header.astro"
 import Footer from "../components/templates/Footer.astro"
+import Text from "../components/atoms/text.astro"
 ---
 
 <html lang="es">
@@ -9,6 +10,7 @@ import Footer from "../components/templates/Footer.astro"
   <body>
     <Header />
     <main>
+      <Text text="Texto de ejemplo que aparece en todas las páginas." />
       <slot />
     </main>
     <Footer />

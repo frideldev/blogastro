@@ -1,0 +1,23 @@
+---
+import { Icon } from "astro-icon/components";
+
+interface Props {
+    icon: string;
+    title: string;
+}
+const { icon, title}= Astro.props
+---
+<div class="">
+    <Icon name={`mdi: ${icon}`}/>
+    <img class="logo-icon" alt="" src="logo.png">
+</div>
+
+
+<style>
+    .logo-icon {
+  	width: 100%;
+  	position: relative;
+  	height: 58px;
+  	object-fit: cover;
+}
+</style>

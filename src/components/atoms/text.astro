@@ -1,0 +1,19 @@
+---
+export interface Props{
+    text: string;
+}
+const { text }=Astro.props;
+---
+<p>{text}</p>
+<style>
+    p {
+        flex: 1;
+        width: 100%;
+        position: relative;
+        font-size: 32px;
+        font-family: 'Inria Sans';
+        color: #000;
+        text-align: center;
+        display: inline-block;
+    }
+</style>

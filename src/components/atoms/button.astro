@@ -1,0 +1,36 @@
+---
+interface Props{
+    title:string;
+    size_text:string;
+    background_color:string;
+    text_color:string;
+}
+const {title,size_text,background_color,text_color}=Astro.props;
+---
+
+<div class="botonregistro">
+    <div class="registrate">{title}</div>
+</div>
+<style define:vars={{ sizes: `var(${size_text})`,backgroundcolors:`var(${background_color})`,textcolors:`var(${text_color})`}}>
+    .registrate {
+  	flex: 1;
+  	position: relative;
+}
+.botonregistro {
+  	width: 100%;
+  	position: relative;
+  	border-radius: 39px;
+  	background-color: var(--backgroundcolors);
+  	border: 1px solid #000;
+  	box-sizing: border-box;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px;
+  	text-align: center;
+  	font-size: var(--sizes);
+  	color: #000;
+  	font-family: 'Inria Sans';
+}
+</style>
